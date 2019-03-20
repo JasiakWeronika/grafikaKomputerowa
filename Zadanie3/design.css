@@ -1,0 +1,40 @@
+article, aside, figure, footer, header, hgroup, menu, nav, section { 
+	display: block; 
+}
+h1 {
+	font-family: arial;
+	text-align: center;
+}
+#notFun {
+	float: left;
+	border: 1px dotted #564b47;
+}
+#instruction {
+	float: left;
+	margin-left: 16px;
+	width: 733px;
+	height: 680px;
+}
+#field {
+	margin-top: 40px;
+}
+#polygon {
+	margin-top: 20px;
+}
+#clean {
+	margin-top: 20px;
+}
+polygon{ 
+	stroke: black; 
+	fill: white;
+	stroke-width: 0.5px;
+	stroke-dasharray: 50000px;
+	stroke-dashoffset: 50000px;
+	animation: dash 300s linear forwards;
+} 
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+

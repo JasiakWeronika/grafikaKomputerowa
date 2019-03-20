@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<title>Koch svg</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Grafika żłówia z użyciem elementu <canvas>">
+  		<meta name="keywords" content="HTML,CSS,JS">
+  		<meta name="author" content="Weronika Jasiak">
+  		<link rel="stylesheet" href="design.css" type="text/css">
+		<script defer src="scriptkoch.js"></script>
+	</head>
+	<body>
+		<h1>Koch</h1>
+		<svg id="notFun" width="750" height="680"> 
+			Here should be a drawing.
+		</svg>
+		<div id="instruction">
+			<h2>Instruction</h2>
+			<p>
+				Type lengt of line name in "Line" text-field, depth in "Depth" text-field, then press a button "Paint".<br>
+				Lengt is greather than 0, depth is greather than 0.
+			</p>
+			<div>
+				<label>Length: <input id="length" type="number"></label>
+				<label>Depth: <input id="depth" type="number"></label>
+				<button id="showMe">Paint</button>
+			</div>
+			<button id="clean">Clean</button>
+		</div>
+	</body>
+</html>

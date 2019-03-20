@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<title>Turtle Graphics</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Grafika żłówia z użyciem elementu <canvas>">
+  		<meta name="keywords" content="HTML,CSS,JS">
+  		<meta name="author" content="Weronika Jasiak">
+  		<link rel="stylesheet" href="design.css" type="text/css">
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<h1>Turtle graphics</h1>
+		<canvas id="myGraphic" width="750" height="680">
+			Here should be a drawing.	
+		</canvas>
+		<div id="instruction">
+			<h2>Check what you can do with Turtle graphics</h2>
+			<form action="" id="radio">
+  				<input type="radio" name="shape" value="1" onclick="check(this.value)">Star<br>
+  				<input type="radio" name="shape" value="2" onclick="check(this.value)">Stars<br>
+  				<input type="radio" name="shape" value="3" onclick="check(this.value)">Sun<br>
+  				<input type="radio" name="shape" value="4" onclick="check(this.value)">Something<br>
+  			</form>
+  			<div id="polygon">
+				<label>Polygon, enter the number of sides <input id="value" type="number"></label>
+				<button id="clickMe">Paint</button>
+			</div>
+			<button id="clean">Clean</button>
+		</div>
+	</body>
+</html>

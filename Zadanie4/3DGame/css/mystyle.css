@@ -1,0 +1,14 @@
+* {
+    background-color: black;
+    color: rgba(192,192,192,1);
+    font-family: Consolas;
+}
+
+#svg_canvas {
+    border: solid rgba(255,0,255,1) 1px;
+}
+
+div {
+    display: table;
+    margin: 0 auto;
+}

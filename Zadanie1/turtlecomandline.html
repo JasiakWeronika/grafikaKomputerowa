@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+	<head>
+		<title>Turtle Graphics</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Grafika żłówia z użyciem elementu <canvas>">
+  		<meta name="keywords" content="HTML,CSS,JS">
+  		<meta name="author" content="Weronika Jasiak">
+  		<link rel="stylesheet" href="design.css" type="text/css">
+		<script defer src="scriptcomandline.js"></script>
+	</head>
+	<body>
+		<h1>Turtle graphic</h1>
+		<canvas id="myGraphic" width="750" height="680">
+			Here should be a drawing.	
+		</canvas>
+		<div id="instruction">
+			<h2>Instruction</h2>
+			<p>
+				Type color in "Color" text-field, line thickness in "Line" text-field and then press a button "Paint".<br>
+				Color comes from the hex color palette for example #a020f0, line is greather than 0.<br>
+				Typing commands use only spaces between functions.
+			</p>
+			<h3>Fuction</h3>
+			<ul>
+				<li>forward(length)</li>
+				<li>backward(length)</li>
+				<li>left(angle)</li>
+				<li>right(angle)</li>
+				<li>penDown()</li>
+				<li>penUp()</li>
+				<li>polygon(numberofsides)</li>
+			</ul>
+			<h3>Color</h3>
+			<p>If you want, you can use a multicolor pen, then enter RANDOM in the "Color" field.</p>
+			<div id="field">
+				<label>Comand: <input id="comand" type="text"></label>
+				<br>
+				<label>Color: <input id="color" type="text"></label>
+				<label>Line: <input id="line" type="number"></label>
+				<button id="clickMe">Paint</button>
+			</div>
+			<button id="clean">Clean</button>
+		</div>
+	</body>
+</html>

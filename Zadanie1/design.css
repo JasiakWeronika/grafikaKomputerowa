@@ -1,0 +1,27 @@
+article, aside, figure, footer, header, hgroup, menu, nav, section { 
+	display: block; 
+}
+h1 {
+	font-style: arial;
+	text-align: center;
+}
+#myGraphic {
+	float: left;
+	border: 1px dotted #564b47;
+}
+#instruction {
+	float: left;
+	margin-left: 16px;
+	width: 733px;
+	height: 680px;
+}
+#field {
+	margin-top: 40px;
+}
+#polygon {
+	margin-top: 20px;
+}
+#clean {
+	margin-top: 20px;
+}
+
